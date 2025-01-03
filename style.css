@@ -224,7 +224,10 @@ h1 {
 .container .card .box3 {
     background-color: #ffcce5;
     margin: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 36px;
+}
+.container .card .box3 img{
+    margin-top: 15px;
 }
 
 .card h3 {
@@ -238,4 +241,10 @@ h1 {
     left: 590px;
     bottom: 50px;
 
+}
+.container .card:hover{
+    box-shadow: 5px 5px 20px black;
+    transform: scale(1.04);
+    transform: rotate(-45deg);
+    transition: 0.5s;
 }
